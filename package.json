@@ -1,0 +1,36 @@
+{
+  "name": "currency-exchange-rate",
+  "version": "1.0.0",
+  "description": "A react app that ensures that travellers get real-time currency exchange rates of their current location, they would also have an option to convert between two currencies as well as get the exchange rates for a proposed travel destination",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Segun-Ogundipe/currency-exchange-rate.git"
+  },
+  "author": "Segun Ogundipe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Segun-Ogundipe/currency-exchange-rate/issues"
+  },
+  "homepage": "https://github.com/Segun-Ogundipe/currency-exchange-rate#readme",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.1"
+  }
+}
